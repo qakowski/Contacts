@@ -1,0 +1,13 @@
+S:\PUM\Contacts\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.deps.json
+S:\PUM\Contacts\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.dll
+S:\PUM\Contacts\Contacts\Contacts\bin\Debug\netstandard2.0\Contacts.pdb
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.csprojAssemblyReference.cache
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\App.xaml.g.cs
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.csproj.CoreCompileInputs.cache
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.AssemblyInfoInputs.cache
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.AssemblyInfo.cs
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.dll
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Contacts.pdb
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Views\ContactsList.xaml.g.cs
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\Views\CustomerDetails.xaml.g.cs
+S:\PUM\Contacts\Contacts\Contacts\obj\Debug\netstandard2.0\XamlC.stamp

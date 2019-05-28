@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts.Views.CustomerDetails">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#323031" VerticalOptions="Fill" HorizontalOptions="Fill">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                  
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+            <!--<Label TextColor="#3E5C76" Text="Id" VerticalOptions="Center" Margin="6"/>
+            <Editor Text="{Binding Id, Mode=TwoWay}" Grid.Column="1"/>-->
+                <Label TextColor="#9DC5BB" Text="Imie i nazwisko" Grid.Row="0" VerticalOptions="Center" Margin="6"/>
+                <Editor TextColor="#5E807F" Text="{Binding Name, Mode=TwoWay}" Grid.Column="1" Grid.Row="0"/>
+            <Label TextColor="#9DC5BB" Text="Numer telefonu" Grid.Row="1" VerticalOptions="Center" Margin="6"/>
+            <Editor TextColor="#5E807F"  Text="{Binding PhoneNumber, Mode=TwoWay}" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+            <Button x:Name="InsertButton" TextColor="#3E5C76" Text="Utwórz kontakt" Clicked="InsertButton_Clicked"/>
+            <Button x:Name="CallButton" TextColor="#3E5C76" Text="Zadzwoń" Clicked="CallButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

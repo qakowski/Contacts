@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Contacts.Views.ContactsList" Title="Kontakty">
+    <ContentPage.Content>
+        <ListView ItemsSource="{Binding .}" IsPullToRefreshEnabled="true" BackgroundColor="#323031"  ItemTapped="Contact_Tapped" Refreshing="Contacts_Refreshing">
+            <!--<ListView.Header>
+                <Label Text="Kontakty" TextColor="#3E5C76" BackgroundColor="#0D1321"></Label>
+            </ListView.Header>-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell TextColor="#9DC5BB" DetailColor="#5E807F" Text="{Binding Name}" Detail="{Binding PhoneNumber}" >
+                        <TextCell.ContextActions>
+                            
+                            <MenuItem Clicked="Contact_Phoned" Text="Zadzwoń"/>
+                            <MenuItem Clicked ="Contact_Deleted" Text="Usuń" IsDestructive="True"/>
+                        </TextCell.ContextActions>
+
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Dodaj" Activated="Add_Activated" Order="Primary" Priority="0"/>
+    </ContentPage.ToolbarItems>
+</ContentPage>
